@@ -1,10 +1,10 @@
-# 🚀 Cognizant Digital Nurture 5.0 – Java FSE Upskilling Journey
+#  Cognizant Digital Nurture 5.0 – Java FSE Upskilling Journey
 
 > A collection of practical assignments, coding exercises, and implementation projects completed during the Cognizant Digital Nurture 5.0 UpSkilling Program.
 
 ---
 
-## 👋 About Me
+##  About Me
 
 **Name:** Addapu Praharika
 **Candidate ID:** 7999309
@@ -15,29 +15,29 @@ I am a Computer Science student specializing in Artificial Intelligence & Machin
 
 ---
 
-## 🎯 What This Repository Represents
+##  What This Repository Represents
 
 Rather than focusing only on theory, this repository emphasizes practical implementation of concepts through:
 
-✅ Coding Assignments
+Coding Assignments
 
-✅ Hands-on Exercises
+Hands-on Exercises
 
-✅ Database Practice
+Database Practice
 
-✅ Frontend Development
+Frontend Development
 
-✅ Java Programming
+Java Programming
 
-✅ Version Control with Git & GitHub
+Version Control with Git & GitHub
 
 Each folder reflects my progress and understanding of different technologies covered during the learning journey.
 
 ---
 
-## 🗂 Learning Roadmap
+## Learning Roadmap
 
-### 🌐 Frontend Development
+### Frontend Development
 
 Building interactive and responsive web applications using modern web technologies.
 
@@ -62,7 +62,7 @@ Building interactive and responsive web applications using modern web technologi
 
 ---
 
-### 🗄 Database Development
+###  Database Development
 
 Learning how data is stored, managed, and retrieved efficiently using relational databases.
 
@@ -85,7 +85,7 @@ Learning how data is stored, managed, and retrieved efficiently using relational
 
 ---
 
-### ☕ Core Java Development
+### Core Java Development
 
 Developing strong programming fundamentals using Java.
 
@@ -110,7 +110,7 @@ Developing strong programming fundamentals using Java.
 
 ---
 
-## 🛠 Technology Stack
+## Technology Stack
 
 | Category        | Technologies                         |
 | --------------- | ------------------------------------ |
@@ -123,7 +123,7 @@ Developing strong programming fundamentals using Java.
 
 ---
 
-## 📈 Skills Developed
+## Skills Developed
 
 Throughout this program, I strengthened my abilities in:
 
@@ -139,23 +139,13 @@ Throughout this program, I strengthened my abilities in:
 
 ---
 
-## 💻 Git Workflow Used
-
-```bash
-git add .
-git commit -m "Updated assignment"
-git push origin main
-```
-
----
-
-## 🌟 Key Takeaway
+## Key Takeaway
 
 This repository is more than a collection of assignments—it documents my growth as a developer by demonstrating how theoretical concepts were transformed into practical solutions through continuous learning and implementation.
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Addapu Praharika**
 
@@ -171,4 +161,4 @@ https://github.com/AddapuPraharika/Cognizant-DN5.0-UPSkilling_Addapu-Praharika_7
 
 ---
 
-### ⭐ "Learning never stops. Every commit is a step toward becoming a better developer."
+###  "Learning never stops. Every commit is a step toward becoming a better developer."
