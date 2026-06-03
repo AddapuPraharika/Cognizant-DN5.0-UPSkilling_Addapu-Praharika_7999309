@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Community Event Portal</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            background:#f4f8fc;
+        }
+
+        nav{
+            background:linear-gradient(135deg,#2563eb,#1e3a8a);
+            padding:18px;
+            text-align:center;
+            position:sticky;
+            top:0;
+        }
+
+        nav a{
+            text-decoration:none;
+            color:white;
+            margin:20px;
+            font-weight:bold;
+            font-size:18px;
+            transition:0.3s;
+        }
+
+        nav a:hover{
+            color:#ffd700;
+        }
+
+        .hero{
+            text-align:center;
+            padding:100px 20px;
+            background:linear-gradient(rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)),
+            url("https://images.unsplash.com/photo-1511578314322-379afb476865?w=1600");
+            background-size:cover;
+            background-position:center;
+            color:white;
+        }
+
+        .hero h1{
+            font-size:55px;
+            margin-bottom:20px;
+        }
+
+        .hero p{
+            font-size:22px;
+            margin-bottom:25px;
+        }
+
+        .btn{
+            display:inline-block;
+            padding:12px 25px;
+            background:#facc15;
+            color:black;
+            text-decoration:none;
+            border-radius:30px;
+            font-weight:bold;
+        }
+
+        .btn:hover{
+            background:#eab308;
+        }
+
+        .content{
+            padding:50px 10%;
+        }
+
+        .section-title{
+            text-align:center;
+            color:#1e3a8a;
+            margin-bottom:30px;
+            font-size:35px;
+        }
+
+        .events{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:25px;
+        }
+
+        .card{
+            background:white;
+            border-radius:15px;
+            padding:25px;
+            text-align:center;
+            box-shadow:0 5px 15px rgba(0,0,0,0.1);
+            transition:0.3s;
+        }
+
+        .card:hover{
+            transform:translateY(-8px);
+        }
+
+        .card h3{
+            color:#2563eb;
+            margin-bottom:10px;
+        }
+
+        .card p{
+            color:#555;
+        }
+
+        .highlight{
+            background:#dbeafe;
+            padding:40px;
+            margin-top:50px;
+            border-radius:15px;
+            text-align:center;
+        }
+
+        .highlight h2{
+            color:#1e3a8a;
+            margin-bottom:15px;
+        }
+
+        footer{
+            background:#1e293b;
+            color:white;
+            text-align:center;
+            padding:25px;
+            margin-top:40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Local Community Event Portal</h1>
+
+        <p>
+            Bringing People Together Through Exciting Community Events,
+            Festivals, Workshops and Social Activities.
+        </p>
+
+        <a href="events.html" class="btn">Explore Events</a>
+    </section>
+
+    <div class="content">
+
+        <h2 class="section-title">Upcoming Events</h2>
+
+        <div class="events">
+
+            <div class="card">
+                <h3>🎉 Community Picnic</h3>
+                <p>Enjoy a fun-filled day with family and friends.</p>
+            </div>
+
+            <div class="card">
+                <h3>🛒 Farmers Market</h3>
+                <p>Support local farmers and buy fresh products.</p>
+            </div>
+
+            <div class="card">
+                <h3>🎬 Outdoor Movie Night</h3>
+                <p>Watch your favorite movies under the stars.</p>
+            </div>
+
+            <div class="card">
+                <h3>🎵 Music Festival</h3>
+                <p>Experience live performances from talented artists.</p>
+            </div>
+
+            <div class="card">
+                <h3>🍔 Food Carnival</h3>
+                <p>Taste delicious dishes from various cuisines.</p>
+            </div>
+
+            <div class="card">
+                <h3>💃 Dance Show</h3>
+                <p>Enjoy amazing dance performances and competitions.</p>
+            </div>
+
+        </div>
+
+        <div class="highlight">
+            <h2>Special Announcement</h2>
+            <p>
+                Register early and get exciting rewards, free passes,
+                and exclusive event merchandise.
+            </p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Local Community Event Portal | Connecting Communities</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+<!-- Task: Registration Form -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+    <style>
+
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        h1{
+            text-align: center;
+            color: red;
+        }
+
+        form{
+            width: 50%;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            border: 1px solid lightgray;
+        }
+
+        label{
+            display: block;
+            margin-top: 10px;
+        }
+
+        input,
+        select,
+        textarea{
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+
+        button{
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: powderblue;
+            border: none;
+            cursor: pointer;
+        }
+
+        #fee{
+            color: blue;
+            font-weight: bold;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Event Registration Form</h1>
+
+    <form>
+
+        <label>Name:</label>
+        <input type="text" id="name" required>
+
+        <label>Email:</label>
+        <input type="email" id="email" required>
+
+        <label>Phone Number:</label>
+        <input type="text" id="phone">
+
+        <label>Select Event:</label>
+
+        <select id="eventType">
+
+            <option value="">Select Event</option>
+            <option value="100">Music Festival</option>
+            <option value="150">Food Carnival</option>
+            <option value="200">Farmers Market</option>
+            <option value="250">Dance Show</option>
+
+        </select>
+
+        <p id="fee">Event Fee: Based on Selection</p>
+
+        <label>Message:</label>
+
+        <textarea id="message" rows="4"></textarea>
+
+        <button type="submit">
+            Register
+        </button>
+
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+/* Task: Community Event Portal Styling */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav{
+    background-color: powderblue;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    background-color: powderblue;
+    color: red;
+    padding: 20px;
+}
+
+h2{
+    text-align: center;
+    color: blue;
+    margin-top: 20px;
+}
+
+p{
+    text-align: center;
+    padding: 10px;
+}
+
+ul{
+    padding: 20px;
+    text-align: center;
+    list-style-position: inside;
+}
+
+.news{
+    column-count: 2;
+    column-gap: 30px;
+    padding: 20px;
+}
+
+.registration-form{
+    width: 350px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: powderblue;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: skyblue;
+}
+
+@media screen and (max-width:768px){
+
+    .registration-form{
+        width:90%;
+    }
+
+    h1{
+        font-size:24px;
+    }
+}

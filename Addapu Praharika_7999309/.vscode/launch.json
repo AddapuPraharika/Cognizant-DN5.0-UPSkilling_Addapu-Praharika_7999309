@@ -1,0 +1,13 @@
+{
+    
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Launch Local Community Portal",
+            "file": "${workspaceFolder}/Module 1/JavaScript/index.html",
+            "webRoot": "${workspaceFolder}/Module 1/JavaScript"
+        }
+    ]
+}
